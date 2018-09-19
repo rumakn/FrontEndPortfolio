@@ -1,0 +1,12 @@
+.btn{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-nav{
+    color: $nav-color;
+    font-size: 1.5em;
+    &:focus,&:hover{
+        color:  $nav-highlight;
+    }
+}
