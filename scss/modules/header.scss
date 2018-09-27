@@ -4,6 +4,15 @@
     right:0px;
     left:0px;
     background: $background-color;
+    height:80px;
+}
+.header-back{
+    position:fixed;
+    top:0px;
+    height:80px;
+    width:100%;
+    grid-column:1/-1;
+    background-color : $background-color;
 }
 .header-container{
     width:100%;
@@ -14,8 +23,7 @@
     margin-left:auto;
     &> ul  {
         list-style: none;
-        display:flex;
-       
+        display:flex;  
     }
     
 }

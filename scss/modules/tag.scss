@@ -1,0 +1,34 @@
+.tools{
+    display:flex;
+
+    justify-content: center;
+    margin: 15px 80px;
+}
+.tag{
+    width:80px;
+    padding: 10px;
+    margin:5px;
+    border-radius:10px;
+    font-weight:bold;
+     color:$background-color;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+
+}
+.html-tag{
+background-color:$html-tag;
+}
+.css-tag{
+    background-color:$css-tag;
+}
+.js-tag{
+    background-color:$js-tag;
+}
+.scss-tag{
+    background-color:$scss-tag;
+}
+.react-tag{
+    background-color:$react-tag;
+}
+.redux-tag{
+    background-color:$redux-tag;
+}

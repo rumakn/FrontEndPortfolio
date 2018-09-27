@@ -1,0 +1,26 @@
+.widget{
+    margin:50px auto;
+    background-color: $widget-color;
+    box-shadow: 0px 2px 5px 2px $shadow-color;
+    border-radius: 5px;
+    overflow:hidden;
+}
+.proj-widget{
+   @extend .widget;
+    &>.widget-title{ 
+        font-size: 2em;
+    }
+    &>.preview{
+        width:100%;
+    }
+    &>.desc{
+        margin: 0px 80px 10px 80px;
+        text-align:left;
+        font-size: 1.2em;
+    }
+    &>.tools{
+        border-top: 1px solid $shadow-color;
+        border-bottom: 1px solid $shadow-color;
+        padding: 20px;
+        }
+}
