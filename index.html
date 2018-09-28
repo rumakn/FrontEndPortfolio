@@ -154,8 +154,32 @@
                             ABOUT
                     </h2>
                     <div class='widget about-widget'>
-                        Natalie Rumak
-                        stuff about me.
+                        <div class='about-image'>
+                            <img src='images/profile-pic.jpg'/>
+                        </div>
+                        <div class='about-info'>
+                            <div class='info'>
+                                I'm Natalie Rumak and I am a front-end developer with a background in design, art and game development. 
+                                Front-end development gives me the opportunity to use my previous experience in art along with mathematics and logic to solve challenging problems, combining my two passions of creating visually appealing products and applying functionality to it.
+                                </br></br>
+
+                                Outside of front-end development I love to do freelance work creating illustrations, learn about the environment, and play video games. 
+                               </div>
+                               <h3>Tools, Frameworks, and Software </h3>
+                                <div class='tools'> 
+                                        <div class='tag html-tag'> HTML 5</div>
+                                        <div class='tag css-tag'> CSS 3 </div>
+                                        <div class='tag js-tag'> ES6</div>
+                                        <div class='tag scss-tag'> SCSS</div>
+                                        <div class='tag react-tag'> REACT</div>
+                                        <div class='tag redux-tag'> REDUX</div>
+                                        <div class='tag krita-tag'> KRITA</div>
+                                        <div class='tag adcc-tag'> ADOBE CC </div>
+                                        <div class='tag maya-tag'> MAYA </div>
+                                        
+                                    </div>
+                        </div>
+                        
                     </div>
             </section>
             <section id='contact'>
@@ -163,7 +187,37 @@
                             CONTACT
                     </h2>
                     <div class='widget contact-widget'>
-                           <!-- Form for contact me -->
+                        <!-- Form for contact me -->
+                        <form name='contact-form' id='contact-form'>
+                            <fieldset>
+                                <legend>
+                                    Get in Touch!
+                                </legend>
+                                <ul>
+                                    <li>
+                                        <label for='name'>
+                                            Name
+                                        </label>
+                                        <input type="text" required maxlength="20" name="name" autocomplete="off" value="Name"/>
+                                    </li>
+                                    <li>
+                                            <label for='email'>
+                                                Email
+                                            </label>
+                                            <input type="email" required name="email" autocomplete="off" value="Email"/>
+                                    </li>
+                                    <li>
+                                            <label for='message'>
+                                                Email
+                                            </label>
+                                            <textarea maxlength="1200" name='message'>
+                                                Message
+                                            </textarea>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </form>
                         </div>
             </section>
         </main>

@@ -465,15 +465,42 @@ main {
 .proj-widget > .tools {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 15px 80px; }
+
+.about-widget {
+  display: flex;
   padding: 20px; }
+  .about-widget > .about-image {
+    margin: 50px 10px; }
+    .about-widget > .about-image > img {
+      border-radius: 50%;
+      max-width: 280px;
+      max-height: 280px;
+      padding: 0px; }
+  .about-widget > .about-info {
+    margin: auto 30px;
+    text-align: left; }
+    .about-widget > .about-info > .info {
+      font-size: 1.2em; }
+    .about-widget > .about-info > h3 {
+      font-size: 1.3em;
+      font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+      color: #3E3C3B; }
+    .about-widget > .about-info > .tools {
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      padding: 10px; }
 
 .tools {
   display: flex;
   justify-content: center;
-  margin: 15px 80px; }
+  flex-wrap: wrap; }
 
 .tag {
-  width: 80px;
+  text-align: center;
+  min-width: 80px;
+  max-width: 100px;
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
@@ -498,3 +525,12 @@ main {
 
 .redux-tag {
   background-color: #764ABC; }
+
+.adcc-tag {
+  background-color: #D41818; }
+
+.krita-tag {
+  background-color: #8F1C41; }
+
+.maya-tag {
+  background-color: #019493; }

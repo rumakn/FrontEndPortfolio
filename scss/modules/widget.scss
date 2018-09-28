@@ -22,5 +22,45 @@
         border-top: 1px solid $shadow-color;
         border-bottom: 1px solid $shadow-color;
         padding: 20px;
+        margin: 15px 80px;
         }
+}
+.about-widget{
+    display:flex;
+    padding: 20px;
+    &>.about-image{
+        margin: 50px 10px;
+        
+        
+        
+       
+        &>img{
+            border-radius: 50%;
+            max-width: 280px;
+            max-height:280px;
+            padding:0px;
+            
+        }
+
+    }
+    &>.about-info{
+        margin: auto 30px;
+        text-align:left;
+        &>.info{
+            font-size: 1.2em;
+        }
+        
+        &>h3{
+            font-size: 1.3em;
+            font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+            color: $nav-color;
+        }
+        &>.tools{
+       
+            border-top: 1px solid $shadow-color;
+            border-bottom: 1px solid $shadow-color;
+            padding: 10px;
+            
+            }
+    }
 }

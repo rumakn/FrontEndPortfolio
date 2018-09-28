@@ -1,21 +1,22 @@
 .tools{
     display:flex;
-
     justify-content: center;
-    margin: 15px 80px;
+    flex-wrap:wrap;
 }
 .tag{
-    width:80px;
+    text-align:center;
+    min-width:80px;
+    max-width:100px;
     padding: 10px;
     margin:5px;
     border-radius:10px;
     font-weight:bold;
-     color:$background-color;
+    color:$background-color;
     font-family: 'Montserrat',Arial, Helvetica, sans-serif;
-
+    
 }
 .html-tag{
-background-color:$html-tag;
+    background-color:$html-tag;
 }
 .css-tag{
     background-color:$css-tag;
@@ -31,4 +32,13 @@ background-color:$html-tag;
 }
 .redux-tag{
     background-color:$redux-tag;
+}
+.adcc-tag{
+    background-color:$adcc-tag;
+}
+.krita-tag{
+    background-color:$krita-tag;
+}
+.maya-tag{
+    background-color:$maya-tag;
 }

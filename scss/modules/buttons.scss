@@ -7,7 +7,7 @@
     color: $nav-color;
     font-size: 1.5em;
     &:focus,&:hover{
-        color:  $nav-highlight;
+        color:  $highlight;
     }
 }
 
@@ -23,8 +23,8 @@
         display:inline-block;
         text-decoration: none;
         &:hover{
-            color: $nav-highlight;
-            border-color: $nav-highlight;
+            color: $highlight;
+            border-color: $highlight;
         }
     }
 }
