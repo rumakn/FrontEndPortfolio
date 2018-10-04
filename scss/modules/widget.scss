@@ -26,14 +26,13 @@
         }
 }
 .about-widget{
+    @include small-media{
+            display:block;
+        }
     display:flex;
     padding: 20px;
     &>.about-image{
         margin: 50px 10px;
-        
-        
-        
-       
         &>img{
             border-radius: 50%;
             max-width: 280px;
@@ -41,7 +40,7 @@
             padding:0px;
             
         }
-
+        
     }
     &>.about-info{
         margin: auto 30px;
