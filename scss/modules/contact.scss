@@ -30,12 +30,16 @@
 
         & > label{
             
-            margin-left:10px;
+            padding-right: 20px;
             max-width: 200px;
-            min-width: 80px;
+            min-width: 50px;
             text-align: right;
             font-weight: bold;
-            padding-right: 50px;
+            @include medium-and-above{
+                padding-right: 50px; 
+                margin-left:10px;
+                min-width: 80px;
+            }
         }
         & > label + textarea{
             min-height: 150px;
@@ -57,4 +61,5 @@ textarea,input[type = email],input[type = text], {
 .form-btn-container{
     max-width:492px;
     width:100%;
+    text-align:right;
 }
