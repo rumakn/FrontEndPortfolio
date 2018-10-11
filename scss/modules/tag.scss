@@ -16,5 +16,8 @@
     background-color: $tag-color;
     cursor:default;
     box-shadow: 2px 2px 0px 2px $shadow-color;
-  
+    @include small-media{
+        min-width:40px;
+        font-size: .7em;
+    }
 }
